@@ -17,18 +17,18 @@ while contador1 == 0:
     nome = input("Digite seu nome: ")
     print("")
 
-    while contador2 == 0:
-     if nome == nome_autorizado:
-        num = input("insira a senha:")
-       contador2 = 1
+while contador2 == 0:
+        if nome == nome_autorizado:
+         num = input("insira a senha:")
+         contador2 = 1
 
-     elif senha == num:
+        elif senha == num:
 
-        print("Acesso liberado")
-        r = input("clique enter")
-        contador2 = 1
+         print("Acesso liberado")
+         r = input("clique enter")
+         contador2 = 1
 
-  else:
-        print("Acesso bloqueado")
-        r = input("")
-        contador1 = 0
+        else:
+         print("Acesso bloqueado")
+         r = input("")
+         contador1 = 0
