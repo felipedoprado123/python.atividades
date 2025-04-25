@@ -10,7 +10,7 @@ senha = 1234
 while contador1 == 0:
     # Exibe a mensagem de boas-vindas
 
-    print("|---------------------- ------------|")
+    print("|----------------------------------|")
     print("|-----------Seja Bem-vindo---------|")
     print("|----------------------------------|")
 
@@ -22,13 +22,13 @@ while contador1 == 0:
         num = input("insira a senha:")
        contador2 = 1
 
-     elif senha == num:
+    elif senha == num:
 
         print("Acesso liberado")
         r = input("clique enter")
         contador2 = 1
 
-  else:
+    else:
         print("Acesso bloqueado")
         r = input("")
         contador1 = 0
