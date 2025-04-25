@@ -10,7 +10,7 @@ senha = 1234
 while contador1 == 0:
     # Exibe a mensagem de boas-vindas
 
-    print("|----------------------------------|")
+    print("|---------------------- ------------|")
     print("|-----------Seja Bem-vindo---------|")
     print("|----------------------------------|")
 
