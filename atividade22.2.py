@@ -1,14 +1,9 @@
 #22.    Faça um algoritmo que calcule e mostre a tabuada de um número digitado pelo usuário.
 
-cont = 10
-cont1 = 0
-cont2 = 1
+# Solicita um número do usuário
+tabuada = float(input("Digite um número para ver a tabuada: "))
 
-tabuada = float(input("Digite um numero para tabuada que deseja tabuada : "))
-
-for cont in cont1:
- if cont == cont1:
-    valor = tabuada * (cont2) 
-    cont1 +=1
-    print(print(f"{valor} = {tabuada} * {cont2}"))
-    
+# Loop de 1 a 10 para exibir a tabuada
+for i in range(1, 11):
+    resultado = tabuada * i
+    print(f"{tabuada} x {i} = {resultado}")
