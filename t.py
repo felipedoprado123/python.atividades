@@ -1,2 +1,3 @@
-for i in range(1, 6):
-  print(i * 2)
+numero = int("10")
+if numero = 10:
+ print("Dez")
