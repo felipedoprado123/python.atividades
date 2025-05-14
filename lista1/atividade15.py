@@ -5,6 +5,7 @@
 #Inserção
 salario = float(input("Digite Seu Salario : "))
 vendas = float(input("Digite Valor De Suas Vendas : "))
+print(100*"-")
 
 #calculo
 comissao = (vendas * 0.04)
