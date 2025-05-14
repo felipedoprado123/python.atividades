@@ -7,7 +7,7 @@ nota1 = float(input("Digite a primera nota:"))
 nota2 = float(input("Digite a segunda nota:"))
 
 #media poderada
-resultado = ((nota1 * 2) + (nota2)) / 5 
+resultado = ((nota1 * 2) + (nota2 * 3)) / 5 
 
 #imprimi
 print("A Media é : ",resultado)
